@@ -1,5 +1,5 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
-**AIM: **
+## AIM: 
  To simulate and synthesis multiplier using Xilinx ISE.
 
 **APPARATUS REQUIRED:**
@@ -31,7 +31,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 
 **Verilog code**
-2-bit multiplier:
+## 2-bit multiplier:
 ```
 module HalfAdder(a,b,sum,carry);
 input a,b;
@@ -91,7 +91,7 @@ or g5(carry,w[3],w[2]);
 endmodule
 ```
 **Output Waveform**
-2-bit multiplier:
+## 2-bit multiplier:
 ![2 x2 multiplier](https://github.com/jayashree1707/VLSI-LAB-EXP-3/assets/160314881/615b0dc6-7c52-4272-b41b-7c8add19eb59)
 
 4-bit multiplier:
@@ -99,7 +99,7 @@ endmodule
 
 
 
-**Result**
+## **Result**
 Hence thus given To simulate and synthesis multiplier using Xilinx ISE.
 
 
