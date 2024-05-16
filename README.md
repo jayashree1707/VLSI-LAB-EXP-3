@@ -1,13 +1,10 @@
 ## SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 ## AIM: 
- To simulate and synthesis multiplier using Xilinx ISE.
-
+ To simulate and synthesis multiplier using vivado 2023.2.
 ## APPARATUS REQUIRED:
-Xilinx 14.7
-Spartan6 FPGA
-  
+vivado 2023.2
 ## PROCEDURE:
-STEP:1  Start  the Vivado, Select and Name the New project.
+STEP:1  Start  the Vivado software, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
 STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
@@ -16,7 +13,6 @@ STEP:6  Click the simulation to simulate the program and  give the inputs and ve
 
 ## Logic Diagram:
 ## 2 bit Multiplier
-
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 ## Verilog code:
 ```
@@ -39,15 +35,11 @@ HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
 ```
-## Output Waveform:
-
+## Output:
 ![2 x2 multiplier](https://github.com/jayashree1707/VLSI-LAB-EXP-3/assets/160314881/615b0dc6-7c52-4272-b41b-7c8add19eb59)
 
-
 ## 4 Bit Multiplier:
-
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
 ## verilog code:
 ```
 module multiplier4(z,a,b);
@@ -68,7 +60,6 @@ fulladder f5(z[4],w16,w11,w15,a[1]&b[3]);
 fulladder f6(z[5],w17,w16,w13,a[2]&b[3]);
 fulladder f7(z[6],z[7],w17,w14,a[3]&b[3]);
 endmodule
-
 module HalfAdder(sum,carry,a,b);
 input a,b;
 output sum,carry;
@@ -89,9 +80,7 @@ endmodule
 ## output:
 ![Screenshot 2024-03-16 181321](https://github.com/jayashree1707/VLSI-LAB-EXP-3/assets/160314881/135f68b4-d43b-451f-ba35-0adb1e6a6734)
 
-
-
 ## Result:
-Hence thus given To simulate and synthesis multiplier using Xilinx ISE.
+Hence thus given To simulate and synthesis multiplier using vivado.
 
 
